@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD7AE"
+    tools:context=".MainActivity"
+    android:focusable="true"
+    android:clickable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/black_board"/>
+
+    <TextView
+        android:id="@+id/textViewLecimy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Lecimy!!!"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/myfont"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/textViewPodajCzas"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="Podaj ile czasu chcesz  się uczyć"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/myfont"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/timeCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/myfont"
+        android:text="00:00:00"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/inputTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="120dp"
+        android:background="@drawable/fillingsquare"
+        android:hint="Ile minut?"
+        android:inputType="textNoSuggestions"
+        android:maxLength="3"
+        android:textCursorDrawable="@null" />
+
+    <com.example.pomodoro.MyKeyboardNumbers
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+android:visibility="invisible"
+        android:background="#85C1A17F"
+        />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="TimeCounter"
+        android:orientation="vertical"
+        android:text="Start"
+        android:background="@drawable/keyboard_button"
+        android:textColor="#fff"
+        android:fontFamily="@font/myfont"/>
+
+</RelativeLayout>

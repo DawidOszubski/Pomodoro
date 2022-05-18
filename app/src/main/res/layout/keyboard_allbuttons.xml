@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/keyboard_layout_all_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textAllCaps="false">
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="6"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="7"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="8"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="9"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_q"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="q"
+            android:textAllCaps="false"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_w"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="w"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_e"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="e"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+        <Button
+            android:id="@+id/button_r"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="r"
+            android:textAllCaps="false"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_t"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="t"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_y"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="y"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_u"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="u"
+            android:textAllCaps="false"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_i"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="i"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_o"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="o"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_p"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="p"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="a"
+            android:textAllCaps="false"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_s"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="s"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_d"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="d"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+        <Button
+            android:id="@+id/button_f"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="f"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_g"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="g"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_h"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="h"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_j"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="j"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_k"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="k"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_l"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="l"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_z"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="z"
+            android:textAllCaps="false"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+
+        <Button
+            android:id="@+id/button_x"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="x"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_c"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="c"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+        <Button
+            android:id="@+id/button_v"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="v"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_b"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="b"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_n"
+            android:layout_width="0dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="n"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+        <Button
+            android:id="@+id/button_m"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="m"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+        <Button
+            android:id="@+id/button_delete1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="2"
+            android:text="Usuń"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_shift"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Shift"
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+
+        <Button
+            android:id="@+id/button_spacebar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="                        "
+            android:background="@drawable/keyboard_button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/button_enter1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Enter"
+            android:textColor="#fff"
+            android:background="@drawable/keyboard_button"/>
+
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen"
+    android:background="#FFD7AE">
+
+
+    <ImageView
+        android:id="@+id/imageViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:minHeight="120dp"
+        android:maxHeight="160dp"
+        android:background="@drawable/title3"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintBottom_toBottomOf="@+id/imageViewTitle"
+        android:background="@drawable/alunia_hi"
+        ></ImageView>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTitle">
+
+        <Button
+            android:id="@+id/learn1"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/flashcards1"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rounded_button" />
+
+
+        <Button
+            android:id="@+id/button131"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/button121"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/button141"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/button151"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rounded_button" />
+
+        //////////////////////////////////////////////////////////////////////////////////
+
+        <Button
+            android:id="@+id/learn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/learn_icon1"
+            android:focusable="true"
+            android:onClick="SelectedButton">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/flashcards"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/flashcard_icon"
+            android:onClick="SelectedButton" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/notepad"
+            android:onClick="SelectedButton" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/timetable"
+            android:onClick="SelectedButton" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/album"
+            android:onClick="SelectedButton" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/plandnia"
+            android:onClick="SelectedButton" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
